@@ -1,0 +1,246 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    height: 130px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+   
+   
+    
+    
+}
+.icon img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 5px red;
+}
+.button{
+    padding: 10px;
+    background-color: rgb(143, 4, 4);
+    color: white;
+}
+.button:hover{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+section{
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+    border: 5px solid white;
+}
+.conten{
+    padding-top: 20px;
+}
+.menu1{
+    padding-top:50px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 350px;
+    border: 5px solid white;
+}
+.onlin{
+    padding-top:100px ;
+}
+.time{
+    padding-top: 20px;
+}
+.onlin button{
+    background-color: rgb(25, 232, 25);
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+.onlin button:hover{
+    background-color: brown;
+}
+.list li a{
+    background-color: white;
+    color: black;
+}
+.list ol li a{
+    padding: 3px 5px;
+    border: 1px solid white;
+    margin: 5px;
+
+}
+.list{
+    padding-top: 20px;
+}
+.order{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+.poha{
+    border: 10px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,min-max(320px,1fr));
+    border-radius:20px;
+}
+.button1{
+    text-align: center;
+    padding-top: 20px;
+}
+.all{
+    padding-top: 10px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    align-items: center;
+    border: 5px solid white;
+}
+
+.button1 .re{
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+}
+.button1 .re:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.ii img{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 5px  solid white;
+    background-color: black;
+    color: white;
+}
+.foot .i img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.last{
+    text-align: center;
+    border: 5px solid black;
+}
+@media screen and (max-width: 600px){
+    .img{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header{
+        height: 100px;
+        border: 5px solid black;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        
+        
+    }
+    .icon img{
+        width: 100px;
+        border-radius: 50%;
+        box-shadow: 10px 5px red;
+    }
+    .button{
+        padding: 8px;
+        background-color: rgb(143, 4, 4);
+        color: white;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border: 5px  solid white;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+    }
+    .foot .i img{
+        width: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .img{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    header{
+        height: 100px;
+        border: 5px solid black;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        
+        
+        
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .icon img{
+        width: 60px;
+        border-radius: 50%;
+        box-shadow: 6px 3px red;
+    }
+    .button{
+        padding: 3px 5px;
+    
+    }
+    .button a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border: 5px  solid white;
+        background-color: black;
+        color: white;
+        font-size: 8px;
+    }
+    .foot .i img{
+        width: 70px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+}
